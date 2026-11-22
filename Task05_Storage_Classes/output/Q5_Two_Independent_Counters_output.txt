@@ -1,0 +1,16 @@
+=== Task 5.2 Two Independent Counters (Veg vs Non-Veg) ===
+
+[Static Local Version - 2 separate static variables/functions]
+Veg: 1001 | Non-Veg: 2001
+Veg: 1002 | Non-Veg: 2002
+Veg: 1003 | Non-Veg: 2003
+
+[Global Version - 2 separate global variables]
+Veg: 1001 | Non-Veg: 2001
+Veg: 1002 | Non-Veg: 2002
+Veg: 1003 | Non-Veg: 2003
+
+[Pointer Alternative - 1 reusable function, 0 global/static state]
+Veg: 1001 | Non-Veg: 2001
+Veg: 1002 | Non-Veg: 2002
+Veg: 1003 | Non-Veg: 2003

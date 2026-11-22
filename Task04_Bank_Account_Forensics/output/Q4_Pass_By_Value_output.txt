@@ -1,0 +1,18 @@
+=== Task 4.2 Address Evidence (Pass-by-Value vs Original) ===
+In main(): &list[0] = 0x7fffdd14c340 (Account 101, Balance=5000.00)
+  Inside addInterest_by_value_void: &a = 0x7fffdd14c328 (Account 101)
+  After void call: list[0].balance = 5000.00 (UNCHANGED)
+In main(): &list[1] = 0x7fffdd14c348 (Account 102, Balance=12000.00)
+  Inside addInterest_by_value_void: &a = 0x7fffdd14c328 (Account 102)
+  After void call: list[1].balance = 12000.00 (UNCHANGED)
+In main(): &list[2] = 0x7fffdd14c350 (Account 103, Balance=800.00)
+  Inside addInterest_by_value_void: &a = 0x7fffdd14c328 (Account 103)
+  After void call: list[2].balance = 800.00 (UNCHANGED)
+
+=== Alternative Concept: Return Modified Struct by Value ===
+Account 101 updated balance: 5200.00
+Account 102 updated balance: 12480.00
+Account 103 updated balance: 832.00
+
+sizeof(struct account)   = 8 bytes
+sizeof(struct account *) = 8 bytes

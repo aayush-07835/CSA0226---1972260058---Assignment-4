@@ -1,0 +1,5 @@
+Storage_Class,Scope,Lifetime,Linkage,Default_Initial_Value,Address_Operator_Allowed,First_3_Tokens_Observed
+auto,Block / local,Automatic (function call),None,Garbage (indeterminate),Yes,1001 1001 1001
+static (local),Block / local,Static (entire program),None,0,Yes,1001 1002 1003
+extern (global),File / program,Static (entire program),External,0,Yes,1003 1002 1001 (single printf RHS->LHS)
+register,Block / local,Automatic (loop/block),None,Garbage (indeterminate),No (compile error),1001..1005 (loop index)

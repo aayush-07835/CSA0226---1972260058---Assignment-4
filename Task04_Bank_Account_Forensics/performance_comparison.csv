@@ -1,0 +1,5 @@
+Approach,Bytes_Passed_Per_Call,Bytes_Returned_Per_Call,Total_Copies_Per_Call,Time_Complexity,Mutates_Original
+Pass by Value (void) - Defective,8,0,1,O(1),No
+Pass by Value & Return Struct,8,8,2,O(1),Yes (via assignment)
+Pass by Pointer (struct account *),8,0,0,O(1),Yes (in-place)
+Pass by Const Pointer (const struct account *),8,0,0,O(1),No (read-only enforced)

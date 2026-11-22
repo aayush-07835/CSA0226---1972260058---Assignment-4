@@ -1,0 +1,6 @@
+=== Q3 Union Misuse Experiment ===
+Stored active member (celsius)   : 31.5
+Read inactive member (percent)   : 1107034112
+Hex representation of those bits : 0x41FC0000
+Note: 31.5f in IEEE-754 single-precision is 0x41FC0000 (decimal 1107034112).
+Reading an inactive union member reinterprets raw bytes and is implementation-defined/non-portable.

@@ -1,0 +1,4 @@
+N_Items,Array_Item_Size_B,List_Node_Size_B,Array_Total_Bytes,List_Total_Bytes,Array_200x_Search_ms,List_200x_Search_ms
+50,76,88,3800,4400,0.022,0.04
+500,76,88,38000,44000,0.236,0.193
+5000,76,88,380000,440000,1.905,1.913

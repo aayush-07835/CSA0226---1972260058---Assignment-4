@@ -1,0 +1,4 @@
+=== Task 5.1 (c) Global Variable Shared via extern ===
+Initial mess_token (from Q5_Extern_Counter.c): 1000
+extern tokens: 1003 1002 1001
+Final mess_token in main: 1003

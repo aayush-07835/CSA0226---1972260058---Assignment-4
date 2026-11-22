@@ -1,0 +1,4 @@
+Design,Single_Record_Size_Bytes,100_Slot_Footprint_Bytes,Padding_Notes,Elements_Swapped_Per_Swap,Bytes_Copied_Per_Swap
+Original Parallel Arrays (Flawed),46,4604,Includes 4B count; char[10] phone & char[8] date truncate,5,N/A (unsafe/unsorted)
+Repaired Array of Structures (AoS),76,7600,1B internal padding after char phone[11] for 4B int alignment,1,228
+Repaired Parallel Arrays (SoA),75,7504,No per-record struct padding; 4B count included,8,225

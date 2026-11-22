@@ -1,0 +1,7 @@
+=== Q3 Normal Structure Design ===
+sizeof(enum kind)              = 4 bytes
+sizeof(struct reading_struct)  = 20 bytes
+Memory for 10,000 packets      = 200000 bytes
+Temp 31.5 C
+Humidity 68 %
+Status OK

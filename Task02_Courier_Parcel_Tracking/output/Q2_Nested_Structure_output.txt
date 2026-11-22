@@ -1,0 +1,19 @@
+=== Task 2.4 Access Paths (3rd Parcel Receiver PIN) ===
+Using array & dot operator   (bookings[2].receiver.addr.pincode) : 641001
+Using pointer & arrow operator ((ptr + 2)->receiver.addr.pincode): 641001
+
+--- All Bookings Sorted by Weight ---
+502 | 1.2 kg | Deepa -> Karthik (Chennai-600077) | 12/10/2026 | Express | Rs.150.00
+503 | 2.8 kg | Meera -> Vijay (Coimbatore-641001) | 13/10/2026 | Normal | Rs.160.00
+504 | 3.1 kg | Surya -> Nisha (Chennai-600028) | 13/10/2026 | Express | Rs.280.00
+501 | 4.5 kg | Arun -> Bala (Madurai-625001) | 12/10/2026 | Normal | Rs.225.00
+
+--- Parcels for Receiver City: Chennai ---
+ID=502 | Weight=1.2 kg | Receiver=Karthik (Chennai-600077) | Service=Express | Charge=Rs.150.00
+ID=504 | Weight=3.1 kg | Receiver=Nisha (Chennai-600028) | Service=Express | Charge=Rs.280.00
+
+--- Nested Structure Sizes ---
+sizeof(Date)    = 12 bytes
+sizeof(Address) = 24 bytes
+sizeof(Person)  = 56 bytes
+sizeof(Parcel)  = 140 bytes

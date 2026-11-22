@@ -1,0 +1,6 @@
+=== Task 5.1 (d) Register Loop Variable ===
+Student 1 -> Token: 1001
+Student 2 -> Token: 1002
+Student 3 -> Token: 1003
+Student 4 -> Token: 1004
+Student 5 -> Token: 1005

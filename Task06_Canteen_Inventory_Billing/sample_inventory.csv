@@ -1,0 +1,7 @@
+ID,Name,Type,Price_INR,Initial_Stock,Detail
+101,Mango Juice 250ml,Packaged,35.0,15,Expiry: 13/10/2026
+102,Biscuit Pack,Packaged,20.0,25,Expiry: 25/10/2026
+103,Masala Dosa,Cooked,50.0,12,Prep Time: 08:30
+104,Veg Fried Rice,Cooked,75.0,4,Prep Time: 11:45
+201,Lunch Combo Meal,Combo,100.0,10,"Components: 104, 101"
+202,Tiffin Combo Meal,Combo,80.0,8,"Components: 103, 101, 102"

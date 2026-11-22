@@ -1,0 +1,6 @@
+Structure,sizeof_Bytes,Swap_Count_3_Items,Bytes_Copied_Per_Swap_3_Assigns,Address_Type_Reusable
+struct date (Q2_Parcel_Tracking.c),12,N/A,N/A,Yes
+struct address (Q2_Parcel_Tracking.c),24,N/A,N/A,Yes
+struct parcel (Nested - Q2_Parcel_Tracking.c),44,2,132,Yes
+struct parcel_flat (Flat - Q2_Flat_Structure.c),44,2,132,No
+Parcel (Full Entity Model - Q2_Nested_Structure.c),140,N/A,420,Yes (Sender & Receiver)

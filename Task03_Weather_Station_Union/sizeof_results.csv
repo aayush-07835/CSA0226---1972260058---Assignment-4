@@ -1,0 +1,5 @@
+Design,Element_Size_Bytes,Union_Size_Bytes,10000_Packets_Bytes,Heap_Alloc_Overhead
+Tagged Union (struct reading),12,8,120000,None
+Normal Struct (struct reading_struct),20,N/A,200000,None
+void* Wrapper (struct void_packet),16,N/A,160000 + payload + malloc metadata,High (malloc per packet)
+Three Separate Arrays,4 (float) / 4 (int) / 8 (char[8]),N/A,Depends on type mix + order lost,None

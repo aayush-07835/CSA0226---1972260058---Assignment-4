@@ -1,0 +1,9 @@
+=== Q1 Repaired Parallel Arrays (SoA) ===
+1  | Kavya Devi           |  29 | 9988776655 | 112/74  mmHg | 13/10/2026
+2  | Meena Iyer           |  35 | 9001122334 | 118/78  mmHg | 14/10/2026
+3  | Anitha Kumar         |  42 | 9876543210 | 120/80  mmHg | 12/10/2026
+4  | Suresh Nair          |  54 | 9445566778 | 136/88  mmHg | 14/10/2026
+5  | Ramesh Babu          |  67 | 9123456789 | 145/95  mmHg | 13/10/2026
+
+Total parallel_register footprint (100 slots): 7504 bytes
+Swaps performed: 2 (8 separate array swaps per logical patient swap)

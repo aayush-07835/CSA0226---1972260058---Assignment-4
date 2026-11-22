@@ -1,0 +1,7 @@
+=== Q3 Alternative Storage Comparison ===
+Separate arrays element sizes: float=4 B, int=4 B, char[8]=8 B
+Tagged union struct size     : 12 bytes/packet (no heap overhead)
+void* wrapper struct size    : 16 bytes/packet + heap payload + allocator metadata
+void* Temp 31.5 C
+void* Humidity 68 %
+void* Status OK

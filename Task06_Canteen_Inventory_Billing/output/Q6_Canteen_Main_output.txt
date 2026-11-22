@@ -1,0 +1,33 @@
+=== College Canteen Inventory & Billing System ===
+
+=== Expiry Warning Report (Reference Date: 12/10/2026) ===
+[WARN] ID 101 (Mango Juice 250ml) expires on 13/10/2026 (1 day(s) left) | Stock: 15
+[OK]   ID 102 (Biscuit Pack) expires on 25/10/2026 (13 day(s) left)
+
+=== Processing Sales Transactions ===
+[SUCCESS]  Sale #1: 4 x Biscuit Pack           @ Rs. 20.00 = Rs.  80.00 (Remaining stock: 21)
+[SUCCESS]  Sale #2: 3 x Masala Dosa            @ Rs. 50.00 = Rs. 150.00 (Remaining stock: 9)
+[SUCCESS]  Sale #3: 2 x Tiffin Combo Meal      @ Rs. 80.00 = Rs. 160.00 (Remaining stock: 6)
+[SUCCESS]  Sale #4: 3 x Biscuit Pack           @ Rs. 20.00 = Rs.  60.00 (Remaining stock: 16)
+[REJECTED] Sale #5: 'Veg Fried Rice' stock (4) < requested (10).
+[REJECTED] Sale #6: Combo 'Lunch Combo Meal' blocked — component ID 104 (Veg Fried Rice) has insufficient stock (4 < 6).
+[REJECTED] Sale #7: Invalid Item ID 999.
+[REJECTED] Sale #8: Invalid quantity (-2) for Item ID 101.
+
+=== Daily Bill Summary (Sorted by Revenue Descending) ===
+ID   | Item Name                | Type     |  Sold |  Stock |    Revenue
+-----+--------------------------+----------+-------+--------+-----------
+202  | Tiffin Combo Meal        | Combo    |     2 |      6 | Rs. 160.00
+103  | Masala Dosa              | Cooked   |     3 |      7 | Rs. 150.00
+102  | Biscuit Pack             | Packaged |     7 |     16 | Rs. 140.00
+104  | Veg Fried Rice           | Cooked   |     0 |      4 | Rs.   0.00
+201  | Lunch Combo Meal         | Combo    |     0 |     10 | Rs.   0.00
+101  | Mango Juice 250ml        | Packaged |     0 |     13 | Rs.   0.00
+-----+--------------------------+----------+-------+--------+-----------
+Total Daily Revenue: Rs. 450.00
+
+=== Structure Memory Sizes ===
+sizeof(struct Date)        = 12 bytes
+sizeof(struct Time)        = 8 bytes
+sizeof(struct CanteenItem) = 76 bytes
+sizeof(struct SaleRecord)  = 20 bytes

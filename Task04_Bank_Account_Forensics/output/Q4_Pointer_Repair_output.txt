@@ -1,0 +1,12 @@
+=== Task 4.3 Repaired Program (4% Interest via Pointer) ===
+Before: &list[0] = 0x7fff250e1910 | Account 101 | Balance = 5000.00
+  Inside addInterest(): a = 0x7fff250e1910 -> modifying original object
+Before: &list[1] = 0x7fff250e1918 | Account 102 | Balance = 12000.00
+  Inside addInterest(): a = 0x7fff250e1918 -> modifying original object
+Before: &list[2] = 0x7fff250e1920 | Account 103 | Balance = 800.00
+  Inside addInterest(): a = 0x7fff250e1920 -> modifying original object
+
+--- Updated Account Balances (Accessed via Pointer p) ---
+Account 101: 5200.00
+Account 102: 12480.00
+Account 103: 832.00

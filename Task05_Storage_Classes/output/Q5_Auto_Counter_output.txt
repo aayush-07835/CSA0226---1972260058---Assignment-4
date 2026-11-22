@@ -1,0 +1,5 @@
+=== Task 5.1 (a) Automatic Local Variable ===
+Call 1 -> Token: 1001
+Call 2 -> Token: 1001
+Call 3 -> Token: 1001
+Call 4 -> Token: 1001

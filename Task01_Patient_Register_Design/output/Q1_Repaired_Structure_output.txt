@@ -1,0 +1,25 @@
+=== Q1 Repaired Structure-Based Patient Register ===
+[ERROR] Invalid 10-digit phone (12345) for Test Invalid.
+[ERROR] Invalid age (150) for Test Age.
+
+--- Registered Patients (Before Sorting) ---
+1  | Anitha Kumar         |  42 | 9876543210 | 120/80  mmHg | 12/10/2026
+2  | Ramesh Babu          |  67 | 9123456789 | 145/95  mmHg | 13/10/2026
+3  | Kavya Devi           |  29 | 9988776655 | 112/74  mmHg | 13/10/2026
+4  | Suresh Nair          |  54 | 9445566778 | 136/88  mmHg | 14/10/2026
+5  | Meena Iyer           |  35 | 9001122334 | 118/78  mmHg | 14/10/2026
+
+--- Registered Patients (Sorted by Age Ascending) ---
+1  | Kavya Devi           |  29 | 9988776655 | 112/74  mmHg | 13/10/2026
+2  | Meena Iyer           |  35 | 9001122334 | 118/78  mmHg | 14/10/2026
+3  | Anitha Kumar         |  42 | 9876543210 | 120/80  mmHg | 12/10/2026
+4  | Suresh Nair          |  54 | 9445566778 | 136/88  mmHg | 14/10/2026
+5  | Ramesh Babu          |  67 | 9123456789 | 145/95  mmHg | 13/10/2026
+
+--- Memory Layout & Swap Measurements ---
+sizeof(struct date)           = 12 bytes
+sizeof(struct blood_pressure) = 8 bytes
+sizeof(struct patient)        = 76 bytes
+Total register (100 slots)    = 7600 bytes
+Swaps performed               = 2
+Bytes copied per swap (3 assignments of struct patient) = 228 bytes

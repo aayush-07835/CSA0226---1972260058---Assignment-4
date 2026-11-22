@@ -1,0 +1,7 @@
+=== Task 4.4 Const Pointer vs Pointer vs Value ===
+Projected 4% interest for #101: Rs. 200.00
+Account 101 | Balance: Rs. 5200.00
+Projected 4% interest for #102: Rs. 480.00
+Account 102 | Balance: Rs. 12480.00
+Projected 4% interest for #103: Rs. 32.00
+Account 103 | Balance: Rs. 832.00

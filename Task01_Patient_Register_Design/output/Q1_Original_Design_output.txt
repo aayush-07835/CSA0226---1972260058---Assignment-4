@@ -1,0 +1,4 @@
+=== Q1 Original Parallel-Array Design (Diagnostic Demo) ===
+Patient 1: Name=Anitha Kumar | Age=42 | Phone(truncated)=987654321 | BP(ambiguous)=120.80 | Date(truncated)=12/10/2
+Patient 2: Name=Ramesh Babu | Age=67 | Phone(truncated)=912345678 | BP(ambiguous)=145.95 | Date(truncated)=13/10/2
+Total global parallel-array footprint (100 slots): 4604 bytes

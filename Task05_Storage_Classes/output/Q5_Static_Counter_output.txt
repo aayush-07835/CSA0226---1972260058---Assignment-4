@@ -1,0 +1,5 @@
+static: 1001 1002 1003
+auto  : 1001 1001 1001
+
+Single printf evaluation experiment (order unspecified in C): 1006 1005 1004
+ptr   : 1001 1002 1003 (O(1) time, caller-controlled lifetime)

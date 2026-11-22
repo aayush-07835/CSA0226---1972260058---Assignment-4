@@ -1,0 +1,9 @@
+Sale_ID,Item_ID,Quantity,Expected_Outcome,Reason
+1,102,4,Success,Normal packaged item sale
+2,103,3,Success,Normal cooked item sale
+3,202,2,Success,"Combo meal deducts 2 from 202, 103, 101, 102"
+4,102,3,Success,Multiple sales of same item (102)
+5,104,10,Rejected,Requested 10 > stock 4
+6,201,6,Rejected,Component 104 stock (4) < 6; atomic rollback
+7,999,1,Rejected,Invalid Item ID
+8,101,-2,Rejected,Invalid negative quantity

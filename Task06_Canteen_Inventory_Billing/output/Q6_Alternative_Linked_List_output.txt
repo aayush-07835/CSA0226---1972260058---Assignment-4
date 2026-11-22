@@ -1,0 +1,8 @@
+=== Task 6 Alternative: Singly Linked List ===
+Updated Biscuit Pack: Stock=21, Revenue=Rs.80.00
+
+Remaining items after deleting ID 101:
+  ID=103 | Masala Dosa          | Stock=12
+  ID=102 | Biscuit Pack         | Stock=21
+
+sizeof(struct ItemNode) = 88 bytes (includes 8-byte next pointer)

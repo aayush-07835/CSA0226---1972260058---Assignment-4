@@ -1,0 +1,9 @@
+=== Task 6 Array of Structures vs Linked List Benchmark ===
+sizeof(struct ArrayItem) = 76 bytes
+sizeof(struct ListItem)  = 88 bytes
+
+N      | Array Bytes  | List Bytes   | Array Search ms | List Search ms
+-------+--------------+--------------+----------------+---------------
+50     | 3800         | 4400         |         0.0220 |         0.0400
+500    | 38000        | 44000        |         0.2360 |         0.1930
+5000   | 380000       | 440000       |         1.9050 |         1.9130

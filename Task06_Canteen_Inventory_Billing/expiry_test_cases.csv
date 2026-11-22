@@ -1,0 +1,3 @@
+Reference_Date,Item_ID,Item_Name,Expiry_Date,Days_Remaining,Warning_Triggered
+12/10/2026,101,Mango Juice 250ml,13/10/2026,1,YES (<= 2 days)
+12/10/2026,102,Biscuit Pack,25/10/2026,13,NO (> 2 days)

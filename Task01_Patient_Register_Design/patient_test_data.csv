@@ -1,0 +1,8 @@
+Patient_ID,Name,Age,Phone,Systolic,Diastolic,Visit_Date,Expected_Status
+1,Anitha Kumar,42,9876543210,120,80,12/10/2026,Accepted
+2,Ramesh Babu,67,9123456789,145,95,13/10/2026,Accepted
+3,Kavya Devi,29,9988776655,112,74,13/10/2026,Accepted
+4,Suresh Nair,54,9445566778,136,88,14/10/2026,Accepted
+5,Meena Iyer,35,9001122334,118,78,14/10/2026,Accepted
+6,Test Invalid,30,12345,120,80,14/10/2026,Rejected (Invalid 10-digit phone)
+7,Test Age,150,9876543210,120,80,14/10/2026,Rejected (Invalid age > 130)
